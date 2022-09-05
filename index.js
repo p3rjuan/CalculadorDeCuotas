@@ -40,7 +40,7 @@ function menuPrincipal() {
   }
 
 
-  function calculadora() {
+  function sacarCuotas() {
     let accionElegida = menuPrincipal();
     while (accionElegida !== "FIN") {
       if (accionElegida !== "") {
@@ -78,4 +78,4 @@ function menuPrincipal() {
     }
   }
   
-  calculadora();
+  sacarCuotas();
